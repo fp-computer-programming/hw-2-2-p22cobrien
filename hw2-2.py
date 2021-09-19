@@ -6,4 +6,6 @@ three = 3
 
 points = (three * 3) + (basket * 2) + free
 
-print('The player scored  points in the game.')
+print('the plater scored') 
+print(points) 
+print('points in the game')
