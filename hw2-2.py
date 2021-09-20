@@ -4,8 +4,14 @@ free = 1
 basket =  2
 three = 3
 
-points = (three * 3) + (basket * 2) + free
+points = str((three * 3) + (basket * 2) + free)
 
-print('the plater scored') 
-print(points) 
-print('points in the game')
+part_1 = str(object ="the plater scored ") 
+
+part_2 = str(object =" points in the game")
+
+part_3 = part_1 + points
+
+part_4 = part_3 + part_2 
+
+print(part_4)
