@@ -6,12 +6,4 @@ three = 4
 
 points = str((three * 3) + (basket * 2) + free)
 
-part_1 = str(object="the player scored ")
-
-part_2 = str(object=" points in the game")
-
-part_3 = part_1 + points
-
-part_4 = part_3 + part_2
-
-print(part_4)
+print("the player scored" + " " + points + " " + "points in the game")
